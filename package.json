@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@heroicons/vue": "^2.0.18",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
     "ksero-meals": "file:",
     "vue": "^3.3.8",
     "vue-router": "^4.2.5"

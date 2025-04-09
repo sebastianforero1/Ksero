@@ -41,6 +41,12 @@
 
 <script setup lang="ts">
 import { FireIcon, SparklesIcon, HeartIcon } from '@heroicons/vue/24/outline'
+import pollocurry from '../assets/images/pollocurry.png'
+import bowlquinoa from '../assets/images/bowlquinoa.png'
+import salmon from '../assets/images/salmon.png'
+import pastaalbondigas from '../assets/images/pastaalbondigas.png'
+import ensaladacesar from '../assets/images/ensaladacesar.png'
+import wrapdepavo from '../assets/images/wrapdepavo.png'
 
 const meals = [
   {
@@ -48,42 +54,42 @@ const meals = [
     description: 'Pechuga de pollo en salsa curry, servido con arroz integral y vegetales salteados',
     price: '16.000',
     icon: FireIcon,
-    image: '/src/assets/images/pollocurry.png'
+    image: pollocurry
   },
   {
     name: 'Bowl de Quinoa y Aguacate',
     description: 'Bowl vegetariano con quinoa, aguacate, garbanzos y vegetales asados',
     price: '15.000',
     icon: HeartIcon,
-    image: '/src/assets/images/bowlquinoa.png'
+    image: bowlquinoa
   },
   {
     name: 'Salmón al Horno',
     description: 'Filete de salmón al horno con puré de papa y espárragos',
     price: '19.000',
     icon: SparklesIcon,
-    image: '/src/assets/images/salmon.png'
+    image: salmon
   },
   {
     name: 'Pasta Integral con Albóndigas',
     description: 'Pasta integral con albóndigas caseras en salsa de tomate',
     price: '16.000',
     icon: FireIcon,
-    image: '/src/assets/images/pastaalbondigas.png'
+    image: pastaalbondigas
   },
   {
     name: 'Ensalada César con Pollo',
     description: 'Lechuga romana, pollo a la parrilla, crutones y aderezo césar',
     price: '15.000',
     icon: HeartIcon,
-    image: '/src/assets/images/ensaladacesar.png'
+    image: ensaladacesar
   },
   {
     name: 'Wrap de Pavo y Aguacate',
     description: 'Tortilla integral con pavo, aguacate, lechuga y tomate',
     price: '12.000',
     icon: SparklesIcon,
-    image: '/src/assets/images/wrapdepavo.png'
+    image: wrapdepavo
   }
 ]
 </script>
